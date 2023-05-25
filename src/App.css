@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
+.flexbox {
+  width: 1100px;
+  margin: 0px auto;
+}
+.date {
+  font-size: 12px;
+}
+i {
+  display: inline-block;
+}
+.navbar ::after {
+  display: block;
+  clear: both;
+  content: '';
+}
+.nav-link {
+  color: #000;
+}
+.navbar {
+  max-width: 1100px;
+  margin: 0px auto;
+}
+.image {
+  max-height: 36px;
+}
+.quiz-container {
+  width: 1100px;
+  margin: 0px auto;
+  height: 1200px;
+  background-color: #a3a3a3;
+}
+.footer-container {
+  background-color: #f5f5f5;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.pills-container {
+  max-width: 1100px;
+  margin: 0px auto;
+  padding: 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.pills {
+  display: inline-block;
+  padding: 20px 30px;
+  background-color: #fff;
+  border: 2px solid #e3e3e3;
+  margin-right: 10px;
+  border-radius: 3px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.search {
+  max-width: 19%;
 }
-
-.App-link {
-  color: #61dafb;
+.header-container {
+  box-shadow: 0px 0px 5px 0px #111;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.row-container {
+  padding: 20px;
+  max-width: 1100px;
+  margin: 0px auto;
+  font-weight: bold;
+}
+.row4 {
+  margin-top: auto;
+}
+.f-image {
+  max-height: 50px;
+}
+.link-footer {
+  max-width: 1100px;
+  margin: 0px auto;
+}
+.link {
+  all: unset;
+  color: #fff;
+  margin-right: 10px;
+  font-size: 13px;
+}
+.link:hover {
+  all: unset;
+  color: #76191d;
+  margin-right: 10px;
+  font-size: 13px;
+  text-decoration: underline;
+}
+.copy {
+  color: #fff;
+  font-size: 13px;
+}
+.link2 {
+  all: unset;
+  color: #8a8a8a;
+  margin-right: 10px;
+  font-size: 13px;
+}
+.link2:hover {
+  all: unset;
+  color: #76191d;
+  margin-right: 10px;
+  font-size: 13px;
+  text-decoration: underline;
 }
