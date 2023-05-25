@@ -41,25 +41,84 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="bg-dark py-3  fs-13">
-        <div className="link-footer">
-          <a href="/" className="link">
-            About Us .
-          </a>
-          <a href="/" className="link">
-            Advertising .
-          </a>
-          <a href="/" className="link">
-            Contact Us .
-          </a>
-
-          <div className="copy fs-12 mt-2 ">
-            Copyright 2023 Muscat Media Group. Times of Oman is not responsible
-            <br />
-            for the content of external internet sites.
-            <a href="/" className="link2 mr-2  ">
-              Bitwize ™
+      <div className="bg-dark py-3 ">
+        <div className="link-footer fs-13 d-flex justify-content-between align-items-center">
+          <div>
+            <a href="/" className="link">
+              About Us .
             </a>
+            <a href="/" className="link">
+              Advertising .
+            </a>
+            <a href="/" className="link">
+              Contact Us .
+            </a>
+
+            <div className="copy fs-12 mt-2 ">
+              Copyright 2023 Muscat Media Group. Times of Oman is not
+              responsible
+              <br />
+              for the content of external internet sites.
+              <a href="/" className="link2 mr-2  ">
+                Bitwize ™
+              </a>
+            </div>
+          </div>
+          <div className="social">
+            <div
+              className="circle btn btn-primary btn-lg btn-floating"
+              style={{
+                backgroundColor: '#3b5999',
+                border: '0px',
+
+                borderRadius: '50%',
+              }}
+            >
+              <i className="fa fa-facebook" />
+            </div>
+            <div
+              className="circle btn btn-primary btn-lg btn-floating"
+              style={{
+                backgroundColor: '#1da1f2',
+                border: '0px',
+
+                borderRadius: '50%',
+              }}
+            >
+              <i className="fa fa-twitter" />
+            </div>
+            <div
+              className="circle btn btn-primary btn-lg btn-floating"
+              style={{
+                backgroundColor: '#cd201f',
+                border: '0px',
+
+                borderRadius: '50%',
+              }}
+            >
+              <i className="fa fa-youtube" />
+            </div>
+            <div
+              className="circle btn btn-primary btn-lg btn-floating"
+              style={{
+                backgroundColor: '#25d366',
+                border: '0px',
+
+                borderRadius: '50%',
+              }}
+            >
+              <i className="fa fa-whatsapp" />
+            </div>
+            <div
+              className="circle btn btn-primary btn-lg btn-floating"
+              style={{
+                backgroundColor: '#e4405f',
+                border: '0px',
+                borderRadius: '50%',
+              }}
+            >
+              <i className="fa fa-instagram" />
+            </div>
           </div>
         </div>
       </div>

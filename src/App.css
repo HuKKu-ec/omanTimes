@@ -32,7 +32,9 @@ i {
 .footer-container {
   background-color: #f5f5f5;
 }
-
+.foot-container {
+  background-color: #eee;
+}
 .pills-container {
   max-width: 1100px;
   margin: 0px auto;
@@ -42,7 +44,7 @@ i {
   display: inline-block;
   padding: 20px 30px;
   background-color: #fff;
-  border: 2px solid #e3e3e3;
+  border: 2px solid #f5f5f5;
   margin-right: 10px;
   border-radius: 3px;
 }
@@ -98,4 +100,7 @@ i {
   margin-right: 10px;
   font-size: 13px;
   text-decoration: underline;
+}
+.circle {
+  margin-left: 10px;
 }
