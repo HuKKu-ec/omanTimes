@@ -73,6 +73,7 @@ i {
   color: #fff;
   margin-right: 10px;
   font-size: 13px;
+  font-weight: 600px;
 }
 .link:hover {
   all: unset;

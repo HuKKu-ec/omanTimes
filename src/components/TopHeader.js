@@ -1,13 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 const TopHeader = () => {
-  const [date, setDate] = useState('Wednesday 24 / May / 2023');
-
   return (
     <div className="tHeader-container bg-dark color-white d-none d-md-block">
       <div className="flexbox d-flex justify-content-between align-items-center">
         <div className="date  " style={{ color: '#fff' }}>
           <i className="fa fa-calendar-o m-1" />
-          {date}
+          Wednesday 24 / May / 2023
         </div>
         <div
           className="social-media d-flex justify-content-between align-items-center"

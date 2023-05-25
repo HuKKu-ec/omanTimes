@@ -5,14 +5,14 @@ const Footer = () => {
     <div className="footer-container">
       <div className="pills-container">
         <div className="pills">
-          <img src="fm.png" style={{ height: '50px' }}></img>
+          <img src="fm.png" alt="fm" style={{ height: '50px' }}></img>
         </div>
         <div className="pills">
-          <img src="tmag.jpg" style={{ height: '50px' }}></img>
+          <img src="tmag.jpg" alt="tmag" style={{ height: '50px' }}></img>
         </div>
         <div className="pills">
           {' '}
-          <img src="eshhar.png" style={{ height: '50px' }}></img>
+          <img src="eshhar.png" alt="eshhar" style={{ height: '50px' }}></img>
         </div>
       </div>
       <div className="bg-gray-200 border-top foot-container">
@@ -35,29 +35,29 @@ const Footer = () => {
             <p>Roundup</p>
           </div>
           <div className="row4">
-            <a className="navbar-brand" href="#">
-              <img className="f-image" src="logo.svg" />
+            <a className="navbar-brand" href="/">
+              <img className="f-image" src="logo.svg" alt="logo" />
             </a>
           </div>
         </div>
       </div>
       <div className="bg-dark py-3  fs-13">
         <div className="link-footer">
-          <a href="/about" className="link">
+          <a href="/" className="link">
             About Us .
           </a>
-          <a href="/advertise" className="link">
+          <a href="/" className="link">
             Advertising .
           </a>
-          <a href="/contact-us" className="link">
+          <a href="/" className="link">
             Contact Us .
           </a>
 
-          <div class="copy fs-12 mt-2 ">
+          <div className="copy fs-12 mt-2 ">
             Copyright 2023 Muscat Media Group. Times of Oman is not responsible
             <br />
             for the content of external internet sites.
-            <a href="https://bitwize.ae" target="_blank" className="link2 mr-2">
+            <a href="/" className="link2 mr-2  ">
               Bitwize ™
             </a>
           </div>
