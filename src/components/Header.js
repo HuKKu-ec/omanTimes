@@ -89,7 +89,10 @@ const Header = () => {
               </a>
             </li>
           </ul>
-          <div className="search d-flex justify-content-end">
+          <div
+            className="search d-flex justify-content-en"
+            style={{ float: 'right' }}
+          >
             <i className="fa fa-search" />
           </div>
         </div>

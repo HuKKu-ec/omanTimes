@@ -4,14 +4,13 @@ const Footer = () => {
   return (
     <div className="footer-container">
       <div className="pills-container">
-        <div className="pills">
+        <div className="pills ">
           <img src="fm.png" alt="fm" style={{ height: '50px' }}></img>
         </div>
-        <div className="pills">
+        <div className="pills ">
           <img src="tmag.jpg" alt="tmag" style={{ height: '50px' }}></img>
         </div>
-        <div className="pills">
-          {' '}
+        <div className="pills ">
           <img src="eshhar.png" alt="eshhar" style={{ height: '50px' }}></img>
         </div>
       </div>
